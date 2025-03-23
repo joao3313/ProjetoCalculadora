@@ -45,24 +45,28 @@
             btnAdicao = new Button();
             btnResultado = new Button();
             btnLimpar = new Button();
+            btnVirgula = new Button();
             SuspendLayout();
             // 
             // txtDisplay
             // 
-            txtDisplay.Location = new Point(12, 47);
+            txtDisplay.Font = new Font("Segoe UI Black", 14F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            txtDisplay.Location = new Point(17, 78);
+            txtDisplay.Margin = new Padding(4, 5, 4, 5);
             txtDisplay.Multiline = true;
             txtDisplay.Name = "txtDisplay";
             txtDisplay.ReadOnly = true;
-            txtDisplay.Size = new Size(220, 56);
+            txtDisplay.Size = new Size(338, 91);
             txtDisplay.TabIndex = 0;
             txtDisplay.TextAlign = HorizontalAlignment.Right;
             // 
             // btnNumero7
             // 
             btnNumero7.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnNumero7.Location = new Point(12, 109);
+            btnNumero7.Location = new Point(17, 182);
+            btnNumero7.Margin = new Padding(4, 5, 4, 5);
             btnNumero7.Name = "btnNumero7";
-            btnNumero7.Size = new Size(75, 36);
+            btnNumero7.Size = new Size(107, 60);
             btnNumero7.TabIndex = 1;
             btnNumero7.Text = "7";
             btnNumero7.UseVisualStyleBackColor = true;
@@ -71,9 +75,10 @@
             // btnNumero8
             // 
             btnNumero8.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnNumero8.Location = new Point(93, 109);
+            btnNumero8.Location = new Point(133, 182);
+            btnNumero8.Margin = new Padding(4, 5, 4, 5);
             btnNumero8.Name = "btnNumero8";
-            btnNumero8.Size = new Size(75, 36);
+            btnNumero8.Size = new Size(107, 60);
             btnNumero8.TabIndex = 1;
             btnNumero8.Text = "8";
             btnNumero8.UseVisualStyleBackColor = true;
@@ -82,9 +87,10 @@
             // btnNumero9
             // 
             btnNumero9.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnNumero9.Location = new Point(174, 109);
+            btnNumero9.Location = new Point(249, 182);
+            btnNumero9.Margin = new Padding(4, 5, 4, 5);
             btnNumero9.Name = "btnNumero9";
-            btnNumero9.Size = new Size(75, 36);
+            btnNumero9.Size = new Size(107, 60);
             btnNumero9.TabIndex = 1;
             btnNumero9.Text = "9";
             btnNumero9.UseVisualStyleBackColor = true;
@@ -93,9 +99,10 @@
             // btnNumero4
             // 
             btnNumero4.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnNumero4.Location = new Point(12, 151);
+            btnNumero4.Location = new Point(17, 252);
+            btnNumero4.Margin = new Padding(4, 5, 4, 5);
             btnNumero4.Name = "btnNumero4";
-            btnNumero4.Size = new Size(75, 40);
+            btnNumero4.Size = new Size(107, 67);
             btnNumero4.TabIndex = 1;
             btnNumero4.Text = "4";
             btnNumero4.UseVisualStyleBackColor = true;
@@ -104,9 +111,10 @@
             // btnNumero5
             // 
             btnNumero5.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnNumero5.Location = new Point(93, 151);
+            btnNumero5.Location = new Point(133, 252);
+            btnNumero5.Margin = new Padding(4, 5, 4, 5);
             btnNumero5.Name = "btnNumero5";
-            btnNumero5.Size = new Size(75, 40);
+            btnNumero5.Size = new Size(107, 67);
             btnNumero5.TabIndex = 1;
             btnNumero5.Text = "5";
             btnNumero5.UseVisualStyleBackColor = true;
@@ -115,9 +123,10 @@
             // btnNumero6
             // 
             btnNumero6.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnNumero6.Location = new Point(174, 151);
+            btnNumero6.Location = new Point(249, 252);
+            btnNumero6.Margin = new Padding(4, 5, 4, 5);
             btnNumero6.Name = "btnNumero6";
-            btnNumero6.Size = new Size(75, 40);
+            btnNumero6.Size = new Size(107, 67);
             btnNumero6.TabIndex = 1;
             btnNumero6.Text = "6";
             btnNumero6.UseVisualStyleBackColor = true;
@@ -126,9 +135,10 @@
             // btnNumero1
             // 
             btnNumero1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnNumero1.Location = new Point(12, 197);
+            btnNumero1.Location = new Point(17, 328);
+            btnNumero1.Margin = new Padding(4, 5, 4, 5);
             btnNumero1.Name = "btnNumero1";
-            btnNumero1.Size = new Size(75, 40);
+            btnNumero1.Size = new Size(107, 67);
             btnNumero1.TabIndex = 1;
             btnNumero1.Text = "1";
             btnNumero1.UseVisualStyleBackColor = true;
@@ -137,9 +147,10 @@
             // btnNumero2
             // 
             btnNumero2.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnNumero2.Location = new Point(93, 197);
+            btnNumero2.Location = new Point(133, 328);
+            btnNumero2.Margin = new Padding(4, 5, 4, 5);
             btnNumero2.Name = "btnNumero2";
-            btnNumero2.Size = new Size(75, 40);
+            btnNumero2.Size = new Size(107, 67);
             btnNumero2.TabIndex = 1;
             btnNumero2.Text = "2";
             btnNumero2.UseVisualStyleBackColor = true;
@@ -148,9 +159,10 @@
             // btnNumero3
             // 
             btnNumero3.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnNumero3.Location = new Point(174, 197);
+            btnNumero3.Location = new Point(249, 328);
+            btnNumero3.Margin = new Padding(4, 5, 4, 5);
             btnNumero3.Name = "btnNumero3";
-            btnNumero3.Size = new Size(75, 40);
+            btnNumero3.Size = new Size(107, 67);
             btnNumero3.TabIndex = 1;
             btnNumero3.Text = "3";
             btnNumero3.UseVisualStyleBackColor = true;
@@ -159,9 +171,10 @@
             // btnNumero0
             // 
             btnNumero0.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnNumero0.Location = new Point(12, 243);
+            btnNumero0.Location = new Point(17, 405);
+            btnNumero0.Margin = new Padding(4, 5, 4, 5);
             btnNumero0.Name = "btnNumero0";
-            btnNumero0.Size = new Size(75, 39);
+            btnNumero0.Size = new Size(107, 65);
             btnNumero0.TabIndex = 1;
             btnNumero0.Text = "0";
             btnNumero0.UseVisualStyleBackColor = true;
@@ -170,9 +183,10 @@
             // btnDivisao
             // 
             btnDivisao.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnDivisao.Location = new Point(255, 69);
+            btnDivisao.Location = new Point(364, 115);
+            btnDivisao.Margin = new Padding(4, 5, 4, 5);
             btnDivisao.Name = "btnDivisao";
-            btnDivisao.Size = new Size(75, 34);
+            btnDivisao.Size = new Size(107, 57);
             btnDivisao.TabIndex = 1;
             btnDivisao.Text = "/";
             btnDivisao.Click += btnDivisao_Click;
@@ -180,9 +194,10 @@
             // btnMultiplicacao
             // 
             btnMultiplicacao.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnMultiplicacao.Location = new Point(255, 109);
+            btnMultiplicacao.Location = new Point(364, 182);
+            btnMultiplicacao.Margin = new Padding(4, 5, 4, 5);
             btnMultiplicacao.Name = "btnMultiplicacao";
-            btnMultiplicacao.Size = new Size(75, 36);
+            btnMultiplicacao.Size = new Size(107, 60);
             btnMultiplicacao.TabIndex = 1;
             btnMultiplicacao.Text = "X";
             btnMultiplicacao.UseVisualStyleBackColor = true;
@@ -191,9 +206,10 @@
             // btnSubtracao
             // 
             btnSubtracao.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnSubtracao.Location = new Point(255, 151);
+            btnSubtracao.Location = new Point(364, 252);
+            btnSubtracao.Margin = new Padding(4, 5, 4, 5);
             btnSubtracao.Name = "btnSubtracao";
-            btnSubtracao.Size = new Size(75, 40);
+            btnSubtracao.Size = new Size(107, 67);
             btnSubtracao.TabIndex = 1;
             btnSubtracao.Text = "-";
             btnSubtracao.UseVisualStyleBackColor = true;
@@ -202,9 +218,10 @@
             // btnAdicao
             // 
             btnAdicao.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnAdicao.Location = new Point(255, 197);
+            btnAdicao.Location = new Point(364, 328);
+            btnAdicao.Margin = new Padding(4, 5, 4, 5);
             btnAdicao.Name = "btnAdicao";
-            btnAdicao.Size = new Size(75, 40);
+            btnAdicao.Size = new Size(107, 67);
             btnAdicao.TabIndex = 1;
             btnAdicao.Text = "+";
             btnAdicao.UseVisualStyleBackColor = true;
@@ -213,9 +230,10 @@
             // btnResultado
             // 
             btnResultado.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnResultado.Location = new Point(174, 243);
+            btnResultado.Location = new Point(364, 405);
+            btnResultado.Margin = new Padding(4, 5, 4, 5);
             btnResultado.Name = "btnResultado";
-            btnResultado.Size = new Size(156, 39);
+            btnResultado.Size = new Size(108, 65);
             btnResultado.TabIndex = 1;
             btnResultado.Text = "=";
             btnResultado.UseVisualStyleBackColor = true;
@@ -224,23 +242,36 @@
             // btnLimpar
             // 
             btnLimpar.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnLimpar.Location = new Point(93, 243);
+            btnLimpar.Location = new Point(133, 405);
+            btnLimpar.Margin = new Padding(4, 5, 4, 5);
             btnLimpar.Name = "btnLimpar";
-            btnLimpar.Size = new Size(75, 39);
+            btnLimpar.Size = new Size(107, 65);
             btnLimpar.TabIndex = 1;
             btnLimpar.Text = "Limpar";
             btnLimpar.UseVisualStyleBackColor = true;
             btnLimpar.Click += btnLimpar_Click;
             // 
+            // btnVirgula
+            // 
+            btnVirgula.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnVirgula.Location = new Point(248, 405);
+            btnVirgula.Margin = new Padding(4, 5, 4, 5);
+            btnVirgula.Name = "btnVirgula";
+            btnVirgula.Size = new Size(107, 65);
+            btnVirgula.TabIndex = 1;
+            btnVirgula.Text = ".";
+            btnVirgula.Click += btnVirgula_Click;
+            // 
             // frmCalculadora
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(358, 321);
+            ClientSize = new Size(511, 535);
             Controls.Add(btnSubtracao);
             Controls.Add(btnNumero3);
             Controls.Add(btnMultiplicacao);
             Controls.Add(btnNumero6);
+            Controls.Add(btnVirgula);
             Controls.Add(btnDivisao);
             Controls.Add(btnNumero9);
             Controls.Add(btnLimpar);
@@ -254,8 +285,9 @@
             Controls.Add(btnNumero4);
             Controls.Add(btnNumero7);
             Controls.Add(txtDisplay);
+            Margin = new Padding(4, 5, 4, 5);
             Name = "frmCalculadora";
-            StartPosition = FormStartPosition.Manual;
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Calculadora";
             ResumeLayout(false);
             PerformLayout();
@@ -280,5 +312,6 @@
         private Button btnAdicao;
         private Button btnResultado;
         private Button btnLimpar;
+        private Button btnVirgula;
     }
 }
